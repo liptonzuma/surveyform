@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">
+                survey form🎢
+            </h1>
+            <p id="description">
+                welcome to our page please fill forms to proceed.
+            </p>
+        </div>
+        <div class="form">
+            <form action="post" id="survey-form">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Username" required><br>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+                <label id="number-label" for="number">Age</label>
+                <input type="number" id="number" name="number" min="18" max="90" placeholder="please enter age in number(s)">
+                <p>what's your current employment status? </p>
+                <select name="todo" id="dropdown">
+                    <option value="select-all" selected disabled>select all that apply</option>
+                    <option value="student">student</option>
+                    <option value="part-time">part time</option>
+                    <option value="full-time">Full time</option>
+                    <option value="self-employed">self employed</option>
+                    <option value="work-from-home">work form home</option>
+                    <option value="laid-off">Laid off</option>
+                    <option value="unemployed">unemployed</option>
+
+                </select>
+                <div class="radio">
+                    <p>
+                        select your favorite field of study( select all that apply)
+                    </p>
+                    <label>
+                        <input type="radio" name="field-select" value="science">science
+                    </label><br>
+                    <label>
+                        <input type="radio" name="field-select" value="computer-science">  computer science
+                    </label><br>
+                    <label>
+                        <input type="radio" name="field-select" value="art-science">art science
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <p>select language you are familiar with(select all that apply) </p><br>
+                    <label>
+                     <input type="checkbox" name="check" value="C-language">C-language
+                 </label><br>
+                    <label>
+                    <input type="checkbox" name="check" value="python">python
+                </label><br>
+                    <label>
+                    <input type="checkbox" name="check" value="c++"> C++
+                </label><br>
+                    <label>
+                    <input type="checkbox" name="check" value="c#">C#
+                </label><br>
+                    <label>
+                    <input type="checkbox" name="check" value="javascript">javaScript
+                </label><br>
+                    <label>
+                    <input type="checkbox" name="check" value="swift">swift
+                </label><br>
+                </div>
+                <p>please tell us more about yourself</p>
+                <textarea></textarea><br>
+                <button id="submit">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
