@@ -1,4 +1,4 @@
 # surveyform
 free code camp project.
-https://github.com/liptonzuma/surveyform/ 
+https://liptonzuma.github.io/survey/
 click link to run test
